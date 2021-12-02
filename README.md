@@ -17,6 +17,15 @@ The following is simple TODO REST API using the Spring Boot Framework. The API a
 * Modify the username and password in the file mention above with this line:  spring.datasource.username=testUsername spring.datasource.password=testPassword
 * Run the application using your preferred IDE ([IntelliJ](https://www.jetbrains.com/idea/), [STS](https://spring.io/tools))
 
+There are several ways to run a Spring Boot application on your local machine. 
+One way is to execute the `main` method in the `rest.Application` class from your IDE.
+
+Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
+
+```shell
+mvn spring-boot:run
+```
+
 
 ## Application Logic For Priority :
 
@@ -34,13 +43,18 @@ The following is simple TODO REST API using the Spring Boot Framework. The API a
 <img src="https://github.com/sabbir-se/todo-rest-api-spirng-boot/blob/main/readme/todoList.png?raw=true"  alt="Demo screen postman">
 
 
-### Add  Item
+### Add  Todo
 
+<img src="https://github.com/sabbir-se/todo-rest-api-spirng-boot/blob/main/readme/addTodo.png?raw=true"  alt="Demo screen postman">
 
+### Update Todo
 
-### Update item
+<img src="https://github.com/sabbir-se/todo-rest-api-spirng-boot/blob/main/readme/updateTodo.png?raw=true"  alt="Demo screen postman">
 
+### Delete Todo
 
+<img src="https://github.com/sabbir-se/todo-rest-api-spirng-boot/blob/main/readme/deleteTodo.png?raw=true"  alt="Demo screen postman">
 
-### Delete item
+### Done Todo
 
+<img src="https://github.com/sabbir-se/todo-rest-api-spirng-boot/blob/main/readme/doneTodo.png?raw=true"  alt="Demo screen postman">
